@@ -1,0 +1,114 @@
+.page__getintouch {
+}
+.getintouch {
+   padding: 80px 0 148px 0;
+   background: #F3F3F3;
+}
+.getintouch__body {
+}
+.getintouch__title {
+}
+.titlebar {
+}
+.getintouch__text {
+   max-width: 480px;
+   margin: 0 auto 80px auto;
+}
+.textbar {
+}
+.getintouch__grid-body {
+   display: grid;
+   grid-template-columns: repeat(3, minmax(0, 328px));
+   justify-content: center;
+}
+.getintouch__item {
+   background-color: #fff;
+   padding: 50px 53px;
+   max-height: 333px;
+   align-self: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   & > *:not(:last-child){
+      margin: 0 0 15px 0;
+   }
+}
+.getintouch__icon-block {
+   text-align: center;
+}
+.getintouch__item-emails {
+   text-align: center;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.2px;
+   color: #252B42;
+}
+.getintouch__item-buttons {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   & > *:not(:last-child){
+      margin: 0 0 15px 0;
+   }
+}
+.getintouch__item-button-default {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.1px;
+   color: #252B42;
+}
+.getintouch__item-button-border {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.2px;
+   color: #FF7B47;
+   min-height: 44px;
+   border: 1px solid #FF7B47;
+   border-radius: 5px;
+   padding: 0 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.getintouch__item-dark {
+   min-height: 393px;
+   background: #252B42;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   & > *{
+      color: #fff;
+   }
+}
+.getintouch__item-button-default-dark{
+   color: #fff;
+}
+.getintouch__item-button-border-dark {
+   border: 1px solid #FFFFFF;
+   color: #fff;
+}
+
+@media (max-width: 865px){
+   .getintouch{
+      padding: 160px 0 148px 0;
+   }
+}
+@media (max-width: 753px) {
+   .getintouch__grid-body{
+      grid-template-columns: minmax(0, 1fr);
+      gap: 20px;
+   }
+}
+
+// @media (max-width: 1084px) {
+//    .getintouch{
+//       margin: 0 20px 0 20px;
+//    }
+// }

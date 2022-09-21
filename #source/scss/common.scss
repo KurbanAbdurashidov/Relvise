@@ -1,0 +1,54 @@
+@import "reset";
+
+//&display=swap&subset=cyrillic-ext
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap);
+
+$bp1: 991.98px;
+$bp2: 767.98px;
+$bp3: 479.98px;
+$bp4: 320px;
+
+body{
+   font-family: 'Montserrat';
+   background: #FAFAFA;
+   height: 100%;
+}
+::selection{
+   background: orange;
+   color: #fff;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+@media (max-width: 1084px){
+   .wrapper{
+      margin: 0 20px;
+   }
+}
+.container {
+   max-width: 1046px;
+   margin: 0 auto;
+   box-sizing: content-box;
+}
+.header__container {
+   max-width: 1046px;
+   margin: 0 auto;
+   box-sizing: content-box;
+}
+.page {
+}
+
+@import 'page/header';
+
+@import 'page/page-mainblock.scss';
+@import 'page/page-achievements.scss';
+@import 'page/page-advantages.scss';
+@import 'page/page-advices.scss';
+@import 'page/page-whoweare.scss';
+@import 'page/page-logos.scss';
+@import 'page/page-email.scss';
+@import 'page/page-getintouch.scss';
+@import 'page/page-contactus.scss';
+
+@import 'page/footer';

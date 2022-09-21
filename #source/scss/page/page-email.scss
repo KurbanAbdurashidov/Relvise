@@ -1,0 +1,140 @@
+.page__email {
+}
+.email {
+   margin: 70px 0 0 0;
+}
+.email__container {
+   position: relative;
+}
+.container {
+}
+.email__body{
+   position: absolute;
+   top: -145px;
+   left: 0;
+}
+.email__body-main {
+   display: grid;
+   grid-template-columns: minmax(0, 300px) minmax(0, 656px);
+   background: #17213C;
+   border-radius: 2px;
+   max-width: 1046px;
+   min-height: 124px;
+   padding: 30px 40px 30px 50px;
+}
+.email__title {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 32px;
+   letter-spacing: 0.1px;
+   color: #FFFFFF;
+   max-width: 266px;
+}
+.email__input {
+   justify-self: flex-end;
+}
+.email__input-input{
+   background: #F9F9F9;
+   border: 1px solid #E6E6E6;
+   border-radius: 5px;
+   max-width: 450px;
+   min-height: 58px;
+   padding: 15px 235px 15px 20px;
+}
+.email__submit{
+}
+.email__submit-button {
+   position: absolute;
+   top: 24%;
+   right: 40px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: 0.2px;
+   color: #FFFFFF;
+   background: #FF7B47;
+   border: 1px solid #E6E6E6;
+   border-radius: 0px 5px 5px 0px;
+   min-height: 58px;
+   padding: 0 22.5px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.email__block{
+   margin: 137px 0 0 0;
+}
+.block__block{
+   min-height: 77px;
+   background: #252B42; 
+}
+
+@media (max-width: 866px){
+   .email__body-main{
+      grid-template-columns: 1fr;
+      grid-row-gap: 20px;
+   }
+   .email__body{
+      min-width: 100%;
+   }
+   .email__title{
+      max-width: 100%;
+      margin: 0 auto;
+   }
+   .email__input-input{
+      justify-items: center;
+   }
+}
+// @media (max-width: 577px) {
+//    .email__input-input{
+//       max-width: 300px;
+//    }
+// }
+
+
+
+
+
+
+
+
+// @media (max-width: 1080px){
+//    .email__input-input{
+//       min-width: 350px;
+//       min-height: 48px;
+//    }
+//    .email__input {
+//       justify-self: center;
+//    }
+//    .email__body-main{
+//       grid-template-columns: 270px 1fr;
+//    }
+//    .email__submit-button{
+//       min-height: 48px;
+//       right: 207px;
+//       padding: 0 15px;
+//       font-size: 12px;
+//    }
+// }
+// @media (max-width: 924px){
+//    .email__input {
+//       justify-self: flex-start;
+//    }
+//    .email__submit-button{
+//       min-height: 48px;
+//       right: 376px;
+//       padding: 0 15px;
+//       font-size: 12px;
+//    }
+// }
+// @media (max-width: 764px){
+//    .email__body-main{
+//       grid-template-columns: 1fr;
+//    }
+//    .email__input{
+//       margin: 10px 0 0 0;
+//       justify-self: center;
+//    }
+// }

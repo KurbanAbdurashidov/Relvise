@@ -1,0 +1,141 @@
+.page__whoweare {
+}
+.whoweare {
+   background: #fff;
+   padding: 100px 0 136px 0;
+}
+.whoweare__container {
+}
+.container {
+}
+.whoweare__title {
+}
+.titlebar {
+}
+.whoweare__text {
+   max-width: 511px;
+   margin: 0 auto 100px auto;
+}
+.textbar {
+}
+.whoweare__body {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.whoweare__images {
+   position: relative;
+}
+.player-button {
+   z-index: 1;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.gradient {
+   position: absolute;
+}
+.whoweare__row {
+   margin: 0 0 0 120px;
+}
+.whoweare__upper {
+}
+.whoweare__upper-title {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 57px;
+   letter-spacing: 0.2px;
+   color: #252B42;
+   margin: 0 0 10px 0;
+}
+.whoweare__upper-text {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   color: #737373;
+   margin: 0 0 50px 0;
+}
+.whoweare__lower {
+   display: grid;
+   grid-template-columns: 50px 1fr;
+}
+.whoweare__lower-block {
+}
+.lower-block__title {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.1px;
+   color: #252B42;
+   margin: 0 0 5px 0;
+}
+.lower-block__text {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.2px;
+   color: #737373;
+}
+
+@media (max-width: 980px) {
+   .whoweare__body{
+      grid-template-columns: 1fr;
+   }
+   .whoweare__images{
+      margin: 0 auto;
+   }
+   .whoweare__upper-title{
+      margin: 30px 0 0 0;
+      text-align: center;
+   }
+   .whoweare__upper-text{
+      text-align: center;
+      max-width: 500px;
+      margin: 0 auto 20px auto;
+   }
+   .whoweare__row{
+      margin: 0;
+   }
+   .whoweare__text{
+      margin: 0 auto 50px auto;
+   }
+   .whoweare__lower{
+      display: flex;
+      justify-content: center;
+      & > *:not(:last-child){
+         margin: 0 15px 0 0;
+      }
+   }
+}
+
+@media (max-width: 634px){
+   .main-image,
+   .gradient {
+      max-width: 298.5px;
+   }
+   .player-button{
+      max-width: 60px;
+   }
+}
+
+@media (max-width: 596px) {
+   .whoweare__lower{
+      display: block;
+      & > *{
+         text-align: center;
+      }
+      & > img{
+         
+      }
+   }
+   .whoweare{
+      padding: 70px 0 80px 0;
+   }
+}
+
+@media (max-width: 1084px) {
+   .whoweare{
+      margin: 100px 20px 136px 20px;
+   }
+}

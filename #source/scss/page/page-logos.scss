@@ -1,0 +1,36 @@
+.page__logos {
+}
+.logos {
+   margin: 58px 0 0 0;
+}
+.logos__container {
+}
+.container {
+}
+.logos__body {
+   display: flex;
+   justify-content: space-around;
+}
+@media (max-width: 1084px){
+   .logos__body{
+      margin: 0 0 0 0;
+   }
+}
+@media (max-width: 793px){
+   .logos__body{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      & > img{
+         justify-self: center;
+         align-self: center
+      }
+   }
+}
+
+@media (max-width: 482px) {
+   .logos__body{
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+   }
+}
